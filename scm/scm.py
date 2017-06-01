@@ -29,7 +29,7 @@ def handle_result(f):
             except UnauthorizedError:
                 url = kwargs.get('url')
                 click.echo('Please login')
-                subprocess.call(['python', __file__, 'login', url])
+                subprocess.call(['scm', 'login', url])
                 break
             except requests.ConnectionError:
                 click.secho('Can not connect to content manager!', fg='red')
