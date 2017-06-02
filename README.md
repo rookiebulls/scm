@@ -197,7 +197,7 @@ Here you need to know that `--qry-param.filters.name.values=test --qry-param.fil
 By default, scm only shows auto-completions, if you want every description of every completion, append `--display-meta` to your command line when you login.
 
 ## Note
-All the api informations, including methods, description, path parameters, query parameters, query body are pull from the api doc, there may be mistakes, so you might need to change the `completion.json` on your own or just make a pull request.
+All the api informations, including methods, description, path parameters, query parameters, query body are pull from the api doc, there may be mistakes, so you might need to change the [completion.json](https://github.com/rookiebulls/scm/blob/master/scm/completions.json) on your own or just make a pull request.
 
 # License
 [MIT](https://github.com/rookiebulls/scm/blob/master/LICENSE)
