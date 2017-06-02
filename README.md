@@ -1,6 +1,6 @@
 # About
 
-> scm is a command line tool to operate Scala Content Manager's restful API.
+> scm is a command line tool for operating Scala Content Manager's restful API.
 
 ## Installation
 1. clone this repositry
@@ -197,8 +197,8 @@ Here you need to know that `--qry-param.filters.name.values=test --qry-param.fil
 By default, scm only shows auto-completions, if you want every description of every completion, append `--display-meta` to your command line when you login.
 
 ## Note
-All the api informations, including methods, description, path parameters, query parameters, query body are pull from the api doc, there may be mistakes, soyou might need to change the `completion.json` on your own. A pull request is warmly welcome.
+All the api informations, including methods, description, path parameters, query parameters, query body are pull from the api doc, there may be mistakes, so you might need to change the `completion.json` on your own or just make a pull request.
 
 # License
-[MIT]()
+[MIT](https://github.com/rookiebulls/scm/blob/master/LICENSE)
 
