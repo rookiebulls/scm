@@ -19,7 +19,7 @@ Then you can login like this:
     scm login
 
 There will be prompts asking for username and password.
-If you don't want to enter Pusername and password, you can also login like this:
+If you don't want to enter username and password, you can also login like this:
 
     scm login -u xxx -p xxx
 
