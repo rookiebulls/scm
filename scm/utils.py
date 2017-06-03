@@ -77,7 +77,7 @@ class TextUtils(object):
 
     META_LOOKUP = {}
 
-    def __init__(self, display_meta):
+    def __init__(self, display_meta=False):
         self.display_meta = display_meta
 
     def find_matches(self, word, collection):
