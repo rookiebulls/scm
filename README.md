@@ -127,7 +127,7 @@ Here's the result.
 ```
 To only show some fields.
 
-    scm list-players --qry-param.fields=namd,type
+    scm list-players --qry-param.fields=name,type
 
 And the result looks like:
 ```
